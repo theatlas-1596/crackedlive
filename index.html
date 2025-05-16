@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plateforme de Jeux</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="logo">Ckracked Alive</h1>
+      <div class="controls">
+        <select id="categoryFilter">
+          <option value="all">Tous</option>
+          <option value="solo">Solo</option>
+          <option value="multi">Multijoueur</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="🔍 Rechercher...">
+      </div>
+    </div>
+  </header>
+
+  <section id="solo" class="rubrique">
+    <h2>Solo</h2>
+    <div class="scrolling-wrapper" id="solo-wrapper"></div>
+  </section>
+
+  <section id="multi" class="rubrique">
+    <h2>Multijoueur</h2>
+    <div class="scrolling-wrapper" id="multi-wrapper"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
