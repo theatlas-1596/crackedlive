@@ -7,7 +7,7 @@ const multiWrapper = document.getElementById('multi-wrapper');
 let games = [
   { name: "Clair Obscur: Expedition 33", img: "clairobscur.jpg", category: "solo", link: "https://gofile.io/d/95X0v1" },
   { name: "The Last of Us Remastered II", img: "tlou.png", category: "solo", link: "https://gofile.io/d/qBaj3l#" },
-  { name: "Minecraft Java", img: "minecraft.png", category: "multi", link: "#" },
+  { name: "Minecraft Java", img: "minecraft.png", category: "multi", link: "https://tlauncher.org/en/" },
   { name: "Combat", img: "combat.png", category: "multi", link: "#" },
   { name: "Ready Or Not", img: "ron.png", category: "solo", link: "https://gofile.io/d/llOxMv" },
   { name: "WINRAR ", img: "winrar.png", category: "solo", link: "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-591fr.exe" }
